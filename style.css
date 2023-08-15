@@ -1,0 +1,62 @@
+.registerform{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin: 0px auto;
+    align-items: center;
+
+}
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+}
+.sub-container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.text{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+
+
+
+.register-terms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.submit-button{
+background-color: gray;
+color: white;
+
+}
+.submit-button:hover{
+
+    background-color: white;
+    color: gray;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+    body {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #314ede;
+    }
+    .register-container{
+        font-size: 20px;
+    }
+    .register-subcontainer{
+        font-size: 20px;
+    }
+
+  }
